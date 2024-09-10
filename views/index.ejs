@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+<main>
+	<section class="posts">
+		<div class="post-container">
+			<% posts.forEach(post => { %> <%- include('partials/card.ejs', { post:
+			post }) %> <% }) %>
+		</div>
+	</section>
+</main>
+<%- include('partials/footer.ejs') %>

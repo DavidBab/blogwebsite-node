@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs') %>
+<main>
+	<div class="posted-container">
+		<div>
+			<% if (post.image) { %>
+			<img src=" <%= post.image %> " alt="posted-image" />
+			<% } %>
+			<h1 class="montserrat-elegant"><%= post.title.toUpperCase() %></h1>
+			<h2><%= post.description %></h2>
+			<p><%= post.text %></p>
+			<p class="create-time">Created: <%= post.timestamp.slice(0, 10) %></p>
+		</div>
+	</div>
+</main>
+<%- include('partials/footer.ejs') %>

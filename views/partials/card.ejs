@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem">
+	<% if (post.image) { %>
+	<img src="<%= post.image %>" class="card-img-top" alt="Post Image" />
+	<% } else { %>
+	<img
+		src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xXO3eAv-c8CLyA6oky2xJAHaHa%26pid%3DApi&f=1&ipt=f0d959197666e14d0cef8aa0383467f2da7249acba070e3b93f5ea7d0996705f&ipo=images"
+		class="card-img-top"
+		alt="Default Image"
+	/>
+	<% } %>
+	<div class="card-body">
+		<h5 class="card-title montserrat-elegant"><%= post.title %></h5>
+		<p class="card-text"><%= post.description %></p>
+		<a href="/post/id=<%= post.id %>" class="btn btn-primary">Check Out</a>
+	</div>
+</div>

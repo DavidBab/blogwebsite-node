@@ -1,0 +1,21 @@
+{
+	"name": "emporior",
+	"version": "1.0.0",
+	"description": "a blog post website for users to post and view others post.",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "DavidBab",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"ejs": "^3.1.10",
+		"express": "^4.19.2",
+		"jquery": "^3.7.1",
+		"multer": "^1.4.5-lts.1",
+		"nodemon": "^3.1.4"
+	}
+}
