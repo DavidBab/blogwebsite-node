@@ -1,6 +1,6 @@
 ## About
 
-This web app is built with `Express` and `Node.js`. The entire website is designed using EJS templates to enhance efficiency and reduce code complexity. It uses JSON documents to store posts and other information, such as post ID.
+This web app is built with `Express`, `Node.js` and `EJS` templates. The entire website is designed using EJS templates to enhance efficiency and reduce code complexity. It uses JSON documents to store posts and other information, such as post ID.
 
 ## How to Use the App?
 
